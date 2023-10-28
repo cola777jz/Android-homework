@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<!--    <ScrollView
+        android:id="@+id/scroll_view_chat"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/layout_chat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            &lt;!&ndash; 用户1的消息 &ndash;&gt;
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/image_button_user1"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/wx"
+                    android:contentDescription="用户1头像"
+                    android:layout_alignParentLeft="true" />
+
+                <TextView
+                    android:id="@+id/text_view_user1_message"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="用户1的消息"
+                    android:textSize="16sp"
+                    android:paddingLeft="8dp"
+                    android:paddingTop="2dp"
+                    android:paddingRight="16dp"
+                    android:paddingBottom="2dp"
+                    android:background="@drawable/user1_message_background"
+                    android:textColor="@android:color/white"
+                    android:layout_toRightOf="@id/image_button_user1" />
+
+            </RelativeLayout>
+
+            &lt;!&ndash; 用户2的消息 &ndash;&gt;
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/image_button_user2"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/qq"
+                    android:contentDescription="用户2头像"
+                    android:layout_alignParentRight="true" />
+
+                <TextView
+                    android:id="@+id/text_view_user2_message"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="用户2的消息"
+                    android:textSize="16sp"
+                    android:paddingLeft="8dp"
+                    android:paddingTop="2dp"
+                    android:paddingRight="16dp"
+                    android:paddingBottom="2dp"
+                    android:background="@drawable/user2_message_background"
+                    android:textColor="@android:color/white"
+                    android:layout_toLeftOf="@id/image_button_user2" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>-->
+
+    <ListView
+        android:id="@+id/list_view_chat"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@null"
+        android:dividerHeight="0dp" />
+
+
+    <LinearLayout
+        android:id="@+id/linear_layout_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/edit_text_message"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="输入消息..." />
+
+        <Button
+            android:id="@+id/button_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发送" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">layout-liner</string>
+    <string name="red">红色</string>
+    <string name="green">绿色</string>
+    <string name="blue">蓝色</string>
+    <string name="mcdd_strange">错愕的抹茶</string>
+    <string name="mcdd_cb">霍霍</string>
+    <string name="mcdd_cbq">画画</string>
+    <string name="mcdd_rose">玫瑰</string>
+</resources>

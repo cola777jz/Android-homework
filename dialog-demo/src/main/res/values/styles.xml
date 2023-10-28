@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ButtonStyle" parent="Widget.AppCompat.Button">
+        <!-- 背景颜色 -->
+        <item name="android:background">@drawable/button_background</item>
+        <!-- 文字颜色 -->
+        <item name="android:textColor">#FFFFFF</item>
+        <!-- 文字大小 -->
+        <item name="android:textSize">16sp</item>
+        <!-- 边距 -->
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+
+</resources>
