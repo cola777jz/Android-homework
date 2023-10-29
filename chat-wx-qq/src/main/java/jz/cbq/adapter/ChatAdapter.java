@@ -12,7 +12,7 @@ import jz.cbq.R;
 import java.util.List;
 
 /**
- * ChatAdapter
+ * ChatAdapter 自定义 Adapter
  *
  * @author Cola777jz
  * @date 2023/10/27 23:36
